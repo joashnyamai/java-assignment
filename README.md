@@ -53,4 +53,4 @@ public class LoginSystem {
     private static boolean login(String username, String password, String correctUsername, String correctPassword) {
         return username.equals(correctUsername) && password.equals(correctPassword);
     }
-}
+
